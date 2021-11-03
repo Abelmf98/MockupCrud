@@ -1,0 +1,77 @@
+body{
+  width: 1200px;
+  /* font-size: 16px; */
+}
+header{
+  width: 1186px;
+  padding: 5px;
+  height: 96px;
+  background-color: brown;
+  border: 2px solid black;
+}
+
+
+#menunav{
+  background-color:tomato;
+  height: 96px;
+  border: 2px solid black;
+}
+
+main{
+  overflow: hidden;
+}
+#contenedor aside, #contenedor section{
+  /* float:left */
+  padding-top: 5px;
+  padding-left: 5px;
+  min-height: 591px;
+}
+
+aside{
+  background-color: purple;
+  width: 291px;
+  border: 2px solid black;
+  float: left;
+}
+
+#caja{
+  float: left;
+  background-color: lightgray;
+  width: 891px;
+  border: 2px solid black;
+}
+section .seccion{
+  margin-left: 0px;
+}
+h1{
+  text-align: center;
+}
+
+form, a{
+  margin-left: 355px;
+}
+table{
+  border-collapse:collapse;
+  text-align:center;
+}
+th{
+  background-color:#75FF33;
+}
+td,th
+	{
+		border-collapse:collapse;
+		height:20px;
+		width:250px;
+	}
+td{
+  background-color: white;
+}
+.enlace{
+  text-decoration: underline;
+}
+footer{
+  clear: left;
+  background-color: cyan;
+  height: 196px;
+  border: 2px solid black;
+}
